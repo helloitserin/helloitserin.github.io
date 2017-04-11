@@ -1,0 +1,109 @@
+h1 {
+	color:blue;
+	font-family: "Press Start 2P";
+}
+
+#mainPage{
+	background-color: black;
+}
+
+#Choosegame{
+	color:white;
+	font-family:"Macondo";
+}
+
+#console{
+	width:400px;
+}
+
+.img-div {
+	text-align: center;
+}
+
+#secondPage{
+	background-color: #1affc6;
+}
+#imgofme{
+	width: 200px;
+}
+#introtext{
+	color:darkblue;
+	font-family: "Spirax";
+	font-style:bold;
+}
+#randomimg{
+	font-family: "Architects Daughter";
+}
+#instructions{
+	background-color:#9933ff;
+	color:white;
+	font-family: serif;
+}
+#rps{
+	font-family: "Fredericka+the+Great";
+	font-style: italic;
+	color: #00e6b8;
+}
+
+#rpsimg{
+	width: 20%;
+}
+#ttt{
+	font-style: italic;
+	color: #ffff00;
+	font-family: "Cabin";
+}
+#tttimg{
+	width: 20%;
+}
+#pac{
+	width: 50%;
+}
+h5{
+	font-family: "Indie Flower";
+}
+#Introboutme{
+	font-family: "Press Start 2P";
+}
+#Rockps{
+	font-family: "Press Start 2P";
+	background-color: #cccccc; 
+}
+#Tictac{
+	font-family: "Press Start 2P";
+	background-color: #999999;
+}
+#Pacm{
+	font-family: "Press Start 2P";
+	background-color: #595959;
+}
+#intruc{
+	font-family: "Press Start 2P";
+	background-color:  #000000;
+	color: #ffffff;
+}
+h4{
+	font-family: "Indie Flower";
+}
+#Clickhere{
+	font-family:"Macondo";
+}
+#boutme{
+	text-align: center;
+}
+img{
+  width:100px;
+}
+#rockpaperscissors{
+  text-align: center;
+}
+#compscore{
+	text-align: center;
+	font-family: "Press Start 2P";
+	color: silver;
+}
+#select{
+	text-align: center;
+	font-family: "Press Start 2P";
+		color: silver;
+}
