@@ -107,3 +107,7 @@ img{
 	font-family: "Press Start 2P";
 		color: silver;
 }
+
+.ui-header .ui-title {
+	white-space: normal !important;
+}
