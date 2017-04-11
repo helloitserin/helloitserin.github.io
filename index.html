@@ -26,18 +26,18 @@
         <img src="https://s-media-cache-ak0.pinimg.com/736x/47/1f/8a/471f8addd6bbe247f8dc75ae48daa65b.jpg" id="console">
         </div>
         <div data-role="controlgroup">
-         <a href="#secondPage" data-role="button" id="Introboutme" data-transition="flip">Introduction and <p>About Me</p>
+            <a href="#secondPage" data-role="button" id="Introboutme" data-transition="flip">Introduction and <p>About Me</p>
          </a>
-        <a href="#firstgame" data-role="button" id="Rockps" data-transition="flow">Rock Paper Scissors</a>
-        <a href="#secondGame" data-role="button" id="Tictac" data-transition="slidefade">Whack-a-thing</a>
-        <a href="#instructions" data-role="button" id="intruc" data-transition="slidedown">Instructions</a>
-</div>    
+            <a href="#firstgame" data-role="button" id="Rockps" data-transition="flow">Rock Paper Scissors</a>
+            <a href="#secondGame" data-role="button" id="Tictac" data-transition="slidefade">Whack-a-thing</a>
+            <a href="#instructions" data-role="button" id="intruc" data-transition="slidedown">Instructions</a>
+        </div>    
     </div>
 
     <div data-role="footer">
         <h5>Have fun! Made by Erin</h5>
     </div>
-</div>
+</div><!-- closing for main page -->
 
 <!-- SECOND PAGE  - ABOUT ME-->
 <div data-role="page" id="secondPage">
@@ -52,7 +52,6 @@
         <div class="img-div">
         <img src="https://i.ytimg.com/vi/ejybjrNJ3gk/maxresdefault.jpg" id="imgofme">
         </div>  
-
     </div>
 
     <div data-role="footer">
@@ -70,34 +69,32 @@
     </div>
 
     <div data-role="content">   
-
-               <h2 id="compscore">Your Score:0 Computer's Score:0 </h2>
-               <h3 id="select">Please select your move.</h3>
-    <div id="rockpaperscissors">
-        <img src="http://www.iconsdb.com/icons/preview/white/rock-xxl.png" id="rock">
-        <img src="http://www.iconsdb.com/icons/preview/white/paper-xxl.png" id="paper">
-        <img src="http://www.iconsdb.com/icons/preview/white/scissors-xxl.png" id="scissors">
-
-         <a href="#rockpaperscissors" data-role="button" id="reset" >Reset</a>
-    </div>
+        <h2 id="compscore">Your Score:0 Computer's Score:0 </h2>
+        <h3 id="select">Please select your move.</h3>
+        <div id="rockpaperscissors">
+            <img src="http://www.iconsdb.com/icons/preview/white/rock-xxl.png" id="rock">
+            <img src="http://www.iconsdb.com/icons/preview/white/paper-xxl.png" id="paper">
+            <img src="http://www.iconsdb.com/icons/preview/white/scissors-xxl.png" id="scissors">
+            <a href="#rockpaperscissors" data-role="button" id="reset" >Reset</a>
+        </div>
 
     <div data-role="footer">
         <h4>Hope you like it!</h4>
     </div>
-</div>
+</div><!-- closing for rock paper scissors -->
 
 <!-- FOURTH PAGE - second game -->
 <div data-role="page" id="secondGame" data-theme="b">
+    
     <div data-role="header">
-        <h1>Tic Tac Toe</h1>
+          <h1>Tic Tac Toe</h1>
           <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home
           <a href="#instructions" class="ui-btn ui-icon-info ui-btn-icon-right" data-transition="slidefade">Instructions</a>
         </a>
     </div>
 
     <div data-role="content"> 
-        <p>This is Whack-a-thing, basically Whack-a-mole without the mole.</p> 
-         
+        <p>This is Whack-a-thing, basically Whack-a-mole without the mole.</p>      
     </div>
 
     <div data-role="footer">
@@ -105,33 +102,15 @@
     </div>
 </div>
 
-<!-- FIFTH PAGE - third game -->
-<div data-role="page" id="thirdGame" data-theme="b">
-    <div data-role="header">
-        <h1>A Game</h1>
-          <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" 
-        <a href="#thirdGame" data-role="button" id="Pacm" data-transition="pop">Home
-        </a>
-        <a href="#instructions" class="ui-btn ui-icon-info ui-btn-icon-right" 
-        <a href="#thirdGame" data-role="button" id="Pacm" data-transition="pop">Instructions</a>
-    </div>
 
-    <div data-role="content">   
-        <p>This is a game.</p> 
-        
-    </div>
 
-    <div data-role="footer">
-        <h4>Bye!</h4>
-    </div>
 </div>
 <!-- INSTRUCTIONS PAGE -->
 <div data-role="page" id="instructions">
     <div data-role="header">
         <h1>Instructions</h1>
-          <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" 
-        <a href="#thirdGame" data-role="button" id="Pacm" data-transition="slidedown">Home
-        </a>
+          <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidedown">Home</a>
+       
     </div>
 
          <div data-role="content">   
