@@ -15,7 +15,7 @@ function getCompChoice(){
 	return compChoice;
 }
 
-pic1.addEventListener('click', function(){
+$('#rock').on('tap', function(){
   var computerChoice = getCompChoice();
   
   if (computerChoice === "scissors") {
@@ -38,7 +38,7 @@ else {
 
 });
 
-pic2.addEventListener('click', function(){
+$('#paper').on('tap', function(){
 	var computerChoice = getCompChoice();
 
 	if (computerChoice === "scissors"){
@@ -61,7 +61,7 @@ else{
 
 });
 
-pic3.addEventListener('click',function(){
+$('#scissors').on('tap', function(){
 	var computerChoice = getCompChoice();
 
 	if (computerChoice === "paper") {
