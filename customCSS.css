@@ -36,6 +36,7 @@ h1 {
 
 #randomimg{
 	font-family: "Architects Daughter";
+	color: purple;
 }
 
 #instructions{
@@ -56,7 +57,7 @@ h1 {
 #ttt{
 	font-style: italic;
 	color: #ffff00;
-	font-family: "Cabin";
+	font-family: "Macondo";
 }
 
 #tttimg{
@@ -130,4 +131,7 @@ img{
 
 .ui-header .ui-title {
 	white-space: normal !important;
+}
+#foota{
+	background-color: silver;
 }

@@ -11,16 +11,17 @@
 </head>
 
 <body>
-<!-- MAIN SCREEN -->
+<!-- Start of first page -->
 <div data-role="page" id="mainPage">
+
     <div data-role="header">
         <h1>Welcome </h1>
         <h1>to the </h1>
         <h1>Game Studio!</h1>
-    </div><!-- /header -->
+    </div>
 
-    <div data-role="content">   
-        <p id="Choosegame">Choose a game to play! Or just read about me! If you don't know how to play, READ the instructions! :) </p>  
+    <div role="main" class="ui-content">
+        <p id="Choosegame">Choose a game to play! Or just read about me! If you don't know how to play, READ the instructions! :)</p>  
         <div class="img-div">
             <img src="https://s-media-cache-ak0.pinimg.com/736x/47/1f/8a/471f8addd6bbe247f8dc75ae48daa65b.jpg" id="console">
         </div>
@@ -28,99 +29,104 @@
             <a href="#secondPage" data-role="button" id="Introboutme" data-transition="flip">Introduction and <br/>About Me</a>
             <a href="#firstgame" data-role="button" id="Rockps" data-transition="flow">Rock Paper Scissors</a>
             <a href="#secondgame" data-role="button" id="Tictac" data-transition="slidefade">Whack-a-thing</a>
-             <a href="#instructions" data-role="button" id="intruc" data-transition="slidedown">Instructions</a>
-        </div> <!--closing for button link divs -->
+            <a href="#instructions" data-role="button" id="intruc" data-transition="slidedown">Instructions</a>
+        </div>
     </div>
 
     <div data-role="footer">
         <h5>Have fun! Made by Erin</h5>
     </div>
-</div><!-- closing for main page -->
+</div>
 
-<!-- ABOUT ME-->
-<div data-role="page" id="secondPage">
+<!-- ABOUT ME -->
+<div data-role="page" id="secondPage" data-theme="b">
+
     <div data-role="header">
         <h1 id="boutme">Introduct-</h1>
         <h1>ion and About Me</h1>
         <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="flip">Home</a>
     </div>
 
-    <div data-role="content">   
+    <div role="main" class="ui-content">
         <p id="introtext">Hello! My name is Erin and I'm currently tweleve years old. This is my app. Hope you like it!</p>
         <p id="randomimg"> Here is a random image of me... found on Google?!</p>
         <div class="img-div">
-        <img src="https://i.ytimg.com/vi/ejybjrNJ3gk/maxresdefault.jpg" id="imgofme">
+            <img src="https://i.ytimg.com/vi/ejybjrNJ3gk/maxresdefault.jpg" id="imgofme">
         </div>  
     </div>
 
-    <div data-role="footer">
+    <div data-role="footer" id="foota">
         <h4>Welcome!</h4>
     </div>
 </div>
 
 <!-- ROCK PAPER SCISSORS -->
 <div data-role="page" id="firstgame" data-theme="b">
+
     <div data-role="header">
-        <h1>Rock Paper Scissors</h1>
+        <h1>Rock</h1>
+        <h1>Paper</h1>
+        <h1>Scissors</h1>
         <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="flow">Home</a>
         <a href="#instructions" class="ui-btn ui-icon-info ui-btn-icon-right" data-transition="flow">Instructions</a>
     </div>
 
-    <div data-role="content">   
+    <div role="main" class="ui-content">
         <h1>Score:<span id="test">0</span></h1>
-          <h3 id="clickapic">Click a picture.</h3>
+        <h3 id="clickapic">Click a picture.</h3>
         <div id="rockpaperscissors">
             <img src="http://www.iconsdb.com/icons/preview/white/rock-xxl.png" id="rock">
             <img src="http://www.iconsdb.com/icons/preview/white/paper-xxl.png" id="paper">
             <img src="http://www.iconsdb.com/icons/preview/white/scissors-xxl.png" id="scissors">
             <button id="buttonone">Reset</button>
         </div>
+    </div>
 
     <div data-role="footer">
         <h4>Hope you like it!</h4>
     </div>
-</div><!-- closing for rock paper scissors -->
-
-
-
-<!-- SECOND GAME? PLZ WORK -->
-<div data-role="page" id="secondgame" data-theme="b">
-    <div data-role="header">
-           <h1>Whack-a-thing</h1>
-             <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home</a>
-             <a href="#instructions" class="ui-btn ui-icon-info ui-btn-icon-right" data-transition="flow">Instructions</a>
-     </div>
-
-         <div data-role="content">   
-            <p id="wack">This is Whack-a-thing, basically Whack-a-mole without the mole.</p>
-        </div>
-
-        <div data-role="footer">
-          <h4>Enjoy!</h4>
-        </div>         
 </div>
 
+<!-- WHACK A THING? -->
+<div data-role="page" id="secondgame" data-theme="b">
+
+    <div data-role="header">
+        <h1>Whack-a-thing</h1>
+        <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home</a>
+        <a href="#instructions" class="ui-btn ui-icon-info ui-btn-icon-right" data-transition="flow">Instructions</a>
+    </div>
+
+    <div role="main" class="ui-content">
+        <p id="wack">This is Whack-a-thing, basically Whack-a-mole without the mole.</p>
+    </div>
+
+    <div data-role="footer">
+        <h4>Enjoy!</h4>
+    </div>
+</div>
 
 <!-- INSTRUCTIONS -->
 <div data-role="page" id="instructions">
+
     <div data-role="header">
-        <h1>Instructions</h1>
-        <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidedown">Home</a>   
+        <h1>Instruc-</h1>
+        <h1>tions</h1>
+        <a href="#mainPage" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="slidedown">Home</a>
     </div>
 
-    <div data-role="content">   
-        <h2>Here are the instructions to the different games.</h2>    
+    <div role="main" class="ui-content">
+       <h2>Here are the instructions to the different games.</h2>    
         <p id="rps">Rock Paper Scissors is a simple game where you have three choices: rock, paper and scissors. Rock wins scissors, Scissors wins paper and Paper wins rock. If the computer and you use the same symbol, it is a tie. In this situation, no points are added.</p>
         <div class="img-div">
             <img src="https://www.dramafever.com/st/news/images/cheater1.jpg" id="rpsimg" >
         </div>
         <p id="ttt">Whack-a-thing is Whack-a-mole without the moles. In this game, you use you finger to whack the items.</p>
         <div class="img-div">
-            <img src="https://lh3.googleusercontent.com/suQtNPIBdQchmAG9S0GxjD-SN_Wl3KSj3p5F0DFRVfTe0G89wdXm0ByFzS0WoE1z1jiD=w300" id="tttimg">
+            <img src="http://1.bp.blogspot.com/-mhkGPJQJCmc/U5c0KBDgmZI/AAAAAAAAFIc/iuGyb6dH97w/s1600/whack+a+mole.jpg" id="tttimg">
         </div>
     </div>
-</div>
 
+</div>
 
 
 
